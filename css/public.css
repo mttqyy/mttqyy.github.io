@@ -1,0 +1,338 @@
+body,h1,h2,h3,h4,h5,h6,p,span,div,ul,ol,li{
+  margin: 0;
+  padding: 0;
+}
+ul,ol,li{
+  list-style: none;
+}
+html{
+  font-size: 100px;
+}
+body{
+  font: normal 0.14rem "Microsoft Yahei",sans-serif;
+}
+a,a:hover,a:focus{
+	text-decoration: none;
+}
+img{
+  width: 100%;
+}
+.btn{
+  border-radius: 50px;
+}
+
+.clear::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+/*nav*/
+.navbar-default .navbar-nav > li > a{
+  color: #000;
+}
+.navbar.navbar-default{
+  margin-bottom: 0;
+  height: 0.8rem;
+  background-color: #fff;
+  border: none;
+
+}
+.navbar .container{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media screen and (min-width: 769px)  {
+.navbar .container{
+  margin: 0 10% 0;
+}
+}
+.icon-phone{
+  position: relative;
+  top: 1px;
+  left: -3px;
+}
+/*banner*/
+.carousel-indicators li{
+  position: relative;
+  left: -38%;
+  border-radius: 0;
+  border: none;
+  background-color: #fff;
+  opacity: 0.1;
+  border: 1px solid #fff;
+}
+.carousel-indicators li.active{
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+.carousel-inner{
+  position: relative;
+}
+.carousel-caption{
+  position: absolute;
+  top: 15%;
+  left:10%;
+  width: 5rem;
+  text-align:center;
+}
+.small{
+  font: bold 0.22rem "Book Antiqua","Microsoft Yahei",sans-serif;
+  text-transform:uppercase;
+}
+.item h2{
+  height: 0.85rem;
+  font-size: 0.42rem;
+  line-height: 0.85rem;
+  position: relative;
+}
+.item h2::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top:1px solid #fff;
+  border-bottom:1px solid #fff;
+}
+
+.text{
+  padding:4% 10% 4%;
+  font-family: "Arial","Microsoft Yahei",sans-serif;
+  opacity: 0.2;
+  position: relative;
+}
+.menoy::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top:0;
+  left:50%;
+  transform: translateX(-50%);
+  width: 10%;
+  border-top: 1px solid #fff;
+}
+.menoy{
+  padding: 10% 0 10%;
+    font:bold 0.36rem "Book Antiqua","Microsoft Yahei",sans-serif;
+    position: relative;
+}
+.menoy span{
+  font-size: 0.68rem;
+  font-style: italic;
+}
+/*content*/
+.share{
+  margin: 2% 0 2%;
+  text-align: center;
+  position: relative;
+}
+.share::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 116%;
+  left: 50%;
+  transform:translateX(-50%);
+  width: 20%;
+  border-top: 1px solid #b9b9b9;
+}
+.share h3{
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.3rem;
+}
+.share p{
+  text-transform: uppercase;
+  color: #b9b9b9;
+}
+.container .row>div{
+  padding: 0;
+  position: relative;
+}
+.share-text{
+  position: absolute;
+  top: 5%;
+  left:50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.share-text h3{
+  padding: 0 0 10%;
+  font-size: 0.3rem;
+  font-weight: bold;
+  position: relative;
+}
+.share-text h3::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: -20%;
+  width: 140%;
+  border-top: 3px solid #b9b9b9;
+}
+
+.share-text .china{
+  padding-top: 10%;
+  font-size: 0.2rem;
+}
+.share-text .en{
+  font-size: 0.14rem;
+  text-transform:uppercase;
+  color: #b9b9b9;
+}
+/*服务*/
+.serve{
+  margin-top: 80px;
+  background: url(../img/serve.jpg) no-repeat;
+  background-size: cover;
+}
+.serve .title{
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 50px
+}
+h2{
+  margin-top: 30px;
+  font-size: 30px;
+  height: 40px;
+  line-height: 40px;
+}
+.title p{
+  text-transform:uppercase;
+  padding-bottom: 10px;
+}
+.serve .title::after{
+  content: "";
+  display: block;
+  width: 300px;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  border-top: 1px solid #fff;
+}
+.serve .row>div{
+  padding: 0 15px 0;
+}
+.serve .row>div>div{
+  height: 400px;
+  margin-bottom: 60px;
+  background-color: #fff;
+   overflow:hidden;
+  text-align: center;
+}
+.serve .row>div>div span{
+
+  display: block;
+  color:#e43635;
+  margin: 20px auto;
+  font-size: 44px;
+  width: 100px;
+  height: 100px;
+  line-height: 90px;
+  border: 4px solid #e43635;
+  border-radius: 100px;
+}
+.serve .row>div>div h3{
+  color:#e43635;
+
+}
+.serve .row>div>div p{
+  padding:40px 20px;
+  color: #333;
+  line-height: 2;
+}
+.serve .row>div>div a{
+  border: 1px solid #ddd;
+  border-radius: 18px;
+  padding: 10px 25px;
+  white-space:pre;
+  color:#333;
+}
+/*关于我们*/
+.about{
+  text-align: center;
+}
+.about .title{
+  margin-bottom: 30px;
+}
+.about .title>p{
+  color: #dcdcdc;
+}
+.about .title::after{
+  content: "";
+  display: block;
+  width: 310px;
+  position: absolute;
+  left: 50%;
+  margin-left: -155px;
+  border-top: 1px solid #dcdcdc;
+}
+.about>p{
+  font-size: 12px;
+  line-height: 26px;
+  color: #333;
+  margin-bottom: 30px;
+}
+.about a{
+  background-color: #e43635;
+  border-radius: 50px;
+  color: #fff;
+  padding: 10px 25px;
+}
+/*app*/
+.app{
+  margin-top: 50px;
+  background: url(../img/appbg.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+.app .left{
+  margin-top:100px;
+  height: 660px;
+  background:url(../img/app.png) no-repeat;
+}
+.app .title h2{
+  font-size: 42px;
+  margin:120px 0 10px;
+}
+.app .title::before{
+  content: "";
+  display: block;
+  width: 500px;
+  position: absolute;
+  top:70%;
+  left: 50%;
+  margin-left: -250px;
+  border-top: 1px solid #dcdcdc;
+}
+.app .title .explain{
+  margin-top: 55px;
+  font-size: 16px;
+  line-height: 36px;
+}
+.app .right img{
+  width: 70%;
+}
+.app .ios,.app .android{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.app .right span{
+  font-size: 35px;
+  position: relative;
+  top:5px;
+}
+/*footer*/
+footer{
+  text-align: center;
+  background-color: #0c0c0c;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+}
